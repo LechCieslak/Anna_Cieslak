@@ -1,12 +1,18 @@
+:root {
+    --tlo: #4C6464;
+    --text: #7F784E;
+  }
+
 body {
-    background-color: #e9ce7a;
+    background-color: var(--tlo);
+    color: goldenrod;
 }
 
 div {
     margin: 15px;
     padding: 10px;
     border-radius: 25px;
-    border: solid 3px #e9967a;
+    border: solid 3px var(--text);
 }
 
 .head {
@@ -18,18 +24,18 @@ div {
     width: 300px;
     height: 50px;
     animation: backgroundCol 2s infinite ;
-    border: solid 3px #e9ce7a;
+    border: solid 3px var(--tlo);
 }
 
 
 @keyframes backgroundCol {
     0% {
-        background-color: #e9ce7a;
+        background-color: var(--tlo);
     }
     66% {
-        background-color: #e9967a;
+        background-color: var(--text);
     }
     100% {
-        background-color: #e9ce7a;
+        background-color: var(--tlo);
     }
 }
