@@ -1,11 +1,13 @@
-:root {
-    --tlo: #4C6464;
-    --text: #7F784E;
-  }
+* { 
+    font-family: verdana;
+    font-weight: bold;
+}
 
 body {
+    --tlo: #4C6464;
+    --text: #7F784E;
     background-color: var(--tlo);
-    color: goldenrod;
+    color: var(--text);
 }
 
 div {
@@ -17,25 +19,59 @@ div {
 
 .head {
     width: 300px;
-    height: 225px;
+    height: 250px;
+}
+
+.head2 {
+    width: 300px;
+    height: 250px;
+    color: #C5B358;
+}
+
+.head3 {
+    width: 300px;
+    height: 250px;
+    color: goldenrod;
+}
+
+.head4 {
+    width: 300px;
+    height: 250px;
+    color: #D4AF37;
+}
+
+.head5 {
+    width: 300px;
+    height: 250px;
+    color: #CFB53B;
+}
+
+.head6 {
+    width: 300px;
+    height: 250px;
+    color: #996515;
 }
 
 .comment {
     width: 300px;
     height: 50px;
-    animation: backgroundCol 2s infinite ;
     border: solid 3px var(--tlo);
+    animation: backgroundCol 2s infinite ;
 }
 
 
 @keyframes backgroundCol {
     0% {
         background-color: var(--tlo);
+        color: var(--text);
     }
     66% {
         background-color: var(--text);
+        color: var(--tlo);
     }
     100% {
         background-color: var(--tlo);
+        color: var(--text);
     }
 }
+
