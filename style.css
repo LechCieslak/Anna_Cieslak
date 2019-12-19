@@ -5,7 +5,8 @@
 
 body {
     --tlo: #4C6464;
-    --text: #C5B358; /* #7F784E; */
+    --text: #C5B358;
+    --ramka: #7F784E;
     background-color: var(--tlo);
     color: var(--text);
 }
@@ -14,7 +15,7 @@ div {
     margin: 15px;
     padding: 10px;
     border-radius: 25px;
-    border: solid 3px #7F784E;
+    border: solid 3px var(--ramka);
 }
 
 .head {
