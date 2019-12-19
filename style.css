@@ -5,7 +5,7 @@
 
 body {
     --tlo: #4C6464;
-    --text: #7F784E;
+    --text: #C5B358; /* #7F784E; */
     background-color: var(--tlo);
     color: var(--text);
 }
@@ -14,42 +14,13 @@ div {
     margin: 15px;
     padding: 10px;
     border-radius: 25px;
-    border: solid 3px var(--text);
+    border: solid 3px #7F784E;
 }
 
 .head {
     width: 300px;
     height: 250px;
-}
-
-.head2 {
-    width: 300px;
-    height: 250px;
-    color: #C5B358;
-}
-
-.head3 {
-    width: 300px;
-    height: 250px;
-    color: goldenrod;
-}
-
-.head4 {
-    width: 300px;
-    height: 250px;
-    color: #D4AF37;
-}
-
-.head5 {
-    width: 300px;
-    height: 250px;
-    color: #CFB53B;
-}
-
-.head6 {
-    width: 300px;
-    height: 250px;
-    color: #996515;
+    color: var(--text);
 }
 
 .comment {
